@@ -1,38 +1,41 @@
+import { RiInstagramLine, RiLinkedinBoxLine, RiLineLine, RiTwitterLine } from 'react-icons/ri'
+import { Link } from 'react-router-dom'
+
 function Footer() {
   return (
-    <div className="w-[1200px] mx-auto flex justify-between items-start">
-      <div className="">
-        <div className="">Davis Tai</div>
-        <div className="">感謝您的瀏覽，若剛好我是你需要的，就快點聯絡我吧！</div>
+    <div className="w-[1200px] mx-auto py-10 px-4 flex justify-between items-start">
+      <div className="w-[400px]">
+        <div className="font-bold text-4xl mb-4">Davis Tai</div>
+        <div className="font-light">Thank you for browsing. If the above are what you need, please contact me quickly!</div>
       </div>
       <div className="">
-        <div className="">Quick Links</div>
-        <div className="flex flex-col">
+        <div className="mb-4 text-xl font-bold">Quick Links</div>
+        <div className="flex flex-col font-light opacity-70">
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Experience</a></li>
-            <li><a href="">Skill</a></li>
-            <li><a href="">Protfolio</a></li>
-            <li><a href="">Contact</a></li>
+            <li className="mb-2"><Link to="/">Home</Link></li>
+            <li className="mb-2"><Link to="/experience">Experience</Link></li>
+            <li className="mb-2"><Link to="/skill">Skill</Link></li>
+            <li className="mb-2"><Link to="/protfolio">Protfolio</Link></li>
+            <li className="mb-2"><Link to="/contact">Contact</Link></li>
           </ul>
         </div>
       </div>
       <div className="">
-        <div className="">Contact Details</div>
-        <div className="flex flex-col ">
+        <div className="mb-4 text-xl font-bold">Contact Details</div>
+        <div className="flex flex-col font-light opacity-70">
           <ul>
-            <li>taichiayin@livemail.tw</li>
-            <li>Line: taichiayin</li>
+            <li className="mb-2">taichiayin@livemail.tw</li>
+            <li className="mb-2">Line: taichiayin</li>
           </ul>
         </div>
       </div>
       <div className="">
-        <div className="">Follow Me</div>
-        <ul>
-          <li><i>icon1</i></li>
-          <li><i>icon2</i></li>
-          <li><i>icon3</i></li>
-          <li><i>icon3</i></li>
+        <div className="mb-4 text-xl font-bold">Follow Me</div>
+        <ul className='flex opacity-70'>
+          <li className='text-[30px] cursor-pointer'><RiInstagramLine /></li>
+          <li className='ml-2 text-[30px] cursor-pointer'><RiLinkedinBoxLine /></li>
+          <li className='ml-2 text-[30px] cursor-pointer'><RiLineLine /></li>
+          <li className='ml-2 text-[30px] cursor-pointer'><RiTwitterLine /></li>
         </ul>
 
       </div>

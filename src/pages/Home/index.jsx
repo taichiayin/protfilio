@@ -1,6 +1,7 @@
 import Banner from './components/Banner'
 import CoreValue from './components/CoreValue'
 import AboutMe from './components/AboutMe'
+import Experience from './components/Experience'
 
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
       <Banner />
       <CoreValue />
       <AboutMe />
+      <Experience />
     </>
   )
 }
