@@ -4,9 +4,11 @@ import { Outlet } from 'react-router-dom'
 
 function Layout() {
   return (
-    <div>
+    <div >
       <Header />
-      <Outlet />
+      <div className="mt-[60px]">
+        <Outlet />
+      </div>
       <Footer />
     </div>
   )

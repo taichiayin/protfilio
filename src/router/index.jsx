@@ -3,7 +3,11 @@ import {
 } from "react-router-dom";
 import App from '@/App'
 import Home from '@/pages/Home'
-import Menu from '@/pages/Menu'
+import Experience from '@/pages/Experience'
+import Skill from '@/pages/Skill'
+import Protfolio from '@/pages/Protfolio'
+import Contact from '@/pages/Contact'
+import NotFoundPage from '@/pages/NotFoundPage'
 
 const router = createBrowserRouter(
   [
@@ -15,12 +19,27 @@ const router = createBrowserRouter(
           element: <Home />
         },
         {
-          path: "/menu",
-          element: <Menu />
+          path: "/experience",
+          element: <Experience />
+        },
+        {
+          path: "/skill",
+          element: <Skill />
+        },
+        {
+          path: "/protfolio",
+          element: <Protfolio />
+        },
+        {
+          path: "/contact",
+          element: <Contact />
         }
       ]
+    },
+    {
+      path: "*",
+      element: <NotFoundPage />
     }
-
   ]
 )
 
