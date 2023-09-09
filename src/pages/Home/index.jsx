@@ -2,6 +2,7 @@ import Banner from './components/Banner'
 import CoreValue from './components/CoreValue'
 import AboutMe from './components/AboutMe'
 import Experience from './components/Experience'
+import Skills from './components/Skills'
 
 
 function Home() {
@@ -11,6 +12,7 @@ function Home() {
       <CoreValue />
       <AboutMe />
       <Experience />
+      <Skills />
     </>
   )
 }
