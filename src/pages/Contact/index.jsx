@@ -36,8 +36,8 @@ function Contact() {
 
 
   return (
-    <div className="w-[1200px] mx-auto p-4">
-      <div className="w-4/5 mx-auto p-6 rounded-xl flex flex-col justify-center items-center shadow-xl dark:shadow-[0_4px_6px_-1px_rgba(100,100,100,.5)] dark:bg-gray-700">
+    <div className="w-[1200px] mx-auto p-4 pt-14">
+      <div className="w-4/5 mx-auto p-6 rounded-xl flex flex-col justify-center items-center shadow-[0_0_10px_0_rgba(0,0,0,.1)] dark:shadow-[0_4px_6px_-1px_rgba(100,100,100,.5)] dark:bg-gray-700">
         <div className="w-full text-center">
           <p className="font-thin dark:text-white">ASK ME QUESTION</p>
           <h1 className="text-4xl font-bold tracking-widest dark:text-white">Contact Me</h1>

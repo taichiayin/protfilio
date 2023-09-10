@@ -4,7 +4,7 @@ function Experience() {
       <div className="w-full flex flex-col">
         <div className="relative">
           <h1 className="text-4xl font-bold tracking-wider relative dark:text-white">EDUCATION</h1>
-          <div className="w-1/2 h-6 absolute -bottom-1 left-4 rounded-sm bg-yellow-400 shadow-md dark:shadow-[0_4px_6px_-1px_rgba(100,100,100,.3)] -z-10"></div>
+          <div className="w-1/2 h-6 absolute -bottom-1 left-4 rounded-sm bg-yellow-400 shadow-md dark:shadow-[0_4px_6px_-1px_rgba(100,100,100,.3)] dark:bg-blue-400 -z-10"></div>
         </div>
         <div className="flex mt-4 p-4 shadow-md dark:shadow-[0_4px_6px_-1px_rgba(100,100,100,.3)] rounded-sm">
           <p className="text-2xl font-bold dark:text-white">2012</p>
@@ -18,7 +18,7 @@ function Experience() {
       <div className="w-full  flex flex-col mt-6">
         <div className="relative">
           <h1 className="text-4xl font-bold tracking-wider relative dark:text-white">EXPERIENCE</h1>
-          <div className="w-1/2 h-6 absolute -bottom-1 left-4 rounded-sm bg-yellow-400 shadow-md dark:shadow-[0_4px_6px_-1px_rgba(100,100,100,.3)] -z-10"></div>
+          <div className="w-1/2 h-6 absolute -bottom-1 left-4 rounded-sm bg-yellow-400 shadow-md dark:shadow-[0_4px_6px_-1px_rgba(100,100,100,.3)] dark:bg-blue-400 -z-10"></div>
         </div>
         <div className="flex mt-4 p-4 shadow-md dark:shadow-[0_4px_6px_-1px_rgba(100,100,100,.3)] rounded-sm">
           <p className="text-2xl font-bold dark:text-white">2020</p>
@@ -78,7 +78,7 @@ function Experience() {
       <div className="w-full  flex flex-col mt-6">
         <div className="relative">
           <h1 className="text-4xl font-bold tracking-wider relative dark:text-white">SIDE PROJECT</h1>
-          <div className="w-1/2 h-6 absolute -bottom-1 left-4 rounded-sm bg-yellow-400 shadow-md dark:shadow-[0_4px_6px_-1px_rgba(100,100,100,.3)] -z-10"></div>
+          <div className="w-1/2 h-6 absolute -bottom-1 left-4 rounded-sm bg-yellow-400 shadow-md dark:shadow-[0_4px_6px_-1px_rgba(100,100,100,.3)] dark:bg-blue-400 -z-10"></div>
         </div>
         <div className="flex mt-4 p-4 shadow-md dark:shadow-[0_4px_6px_-1px_rgba(100,100,100,.3)] rounded-sm">
           <p className="text-2xl font-bold dark:text-white">2023</p>
