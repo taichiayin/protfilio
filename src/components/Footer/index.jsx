@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <div className="w-full border-t-2 mt-10">
-      <div className="w-[1200px] mx-auto py-10 px-4 flex justify-between items-start ">
-        <div className="w-[400px]">
+      <div className="max-w-[1200px] mx-auto py-10 px-4 flex justify-between items-start flex-wrap">
+        <div className="w-[400px] max-md:mb-4">
           <div className="font-bold text-4xl mb-4 dark:text-white">
             Davis Tai
           </div>

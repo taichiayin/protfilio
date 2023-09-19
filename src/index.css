@@ -4,11 +4,12 @@
 
 @layer base {
   * {
+    box-sizing: border-box;
     font-family: 'Poppins', 'Noto Sans';
     color: #164e63;
   }
 
-  .dark{
+  .dark {
     background-color: rgb(17 24 39);
   }
 }

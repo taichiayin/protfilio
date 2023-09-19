@@ -11,18 +11,18 @@ const feSkills = [
 
 const beSkills = [
   { name: 'Node', style: { '--i': '60%', '--clr': '#8bbf3e' } },
-  { name: 'Golang', style: { '--i': '40%', '--clr': '#01a7d1' } },
+  { name: 'Golang', style: { '--i': '40%', '--clr': '#01a7d1' } }
 ]
 
 const otherSkills = [
   { name: 'Webpack', style: { '--i': '80%', '--clr': '#164e63' } },
   { name: 'Jenkins', style: { '--i': '70%', '--clr': '#164e63' } },
-  { name: 'Git', style: { '--i': '70%', '--clr': '#164e63' } },
+  { name: 'Git', style: { '--i': '70%', '--clr': '#164e63' } }
 ]
 
 function Skill() {
   return (
-    <div className="w-[1200px] mx-auto px-4 flex justify-center items-stretch flex-wrap">
+    <div className="max-w-[1200px] mx-auto px-4 flex justify-center items-stretch flex-wrap">
       <div className="w-[500px] m-4 p-2 shadow-xl rounded-xl">
         <h2 className="text-4xl font-bold tracking-wider">Front End</h2>
         <div className="flex flex-wrap">
@@ -60,7 +60,9 @@ function Skill() {
             return (
               <div className="box" key={key} style={el.style}>
                 <div className="circle">
-                  <h3 className="text-xl font-['Jost'] text-cyan-700">{el.name}</h3>
+                  <h3 className="text-xl font-['Jost'] text-cyan-700">
+                    {el.name}
+                  </h3>
                 </div>
               </div>
             )
